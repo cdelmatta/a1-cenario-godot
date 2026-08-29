@@ -121,3 +121,6 @@ shape = SubResource("CapsuleShape2D_xu3el")
 sprite_frames = SubResource("SpriteFrames_g2els")
 animation = &"walk"
 frame_progress = 0.7980503
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=615813364]
+position_smoothing_enabled = true

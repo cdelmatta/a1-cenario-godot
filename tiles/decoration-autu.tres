@@ -1,0 +1,33 @@
+[gd_resource type="TileSet" format=3 uid="uid://c64fqksgw1h3"]
+
+[ext_resource type="Texture2D" uid="uid://c5erewmabhnkt" path="res://sprites/Seasonal Tilesets/2 - Autumn Forest/Autumn_entities (16 x 16).png" id="1_ojosk"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_so6gh"]
+texture = ExtResource("1_ojosk")
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+15:1/0 = 0
+16:1/0 = 0
+17:1/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+16:3/0 = 0
+17:3/0 = 0
+18:3/0 = 0
+14:4/0 = 0
+16:4/0 = 0
+18:4/0 = 0
+1:5/0 = 0
+3:5/0 = 0
+1:1/size_in_atlas = Vector2i(3, 3)
+1:1/0 = 0
+5:1/size_in_atlas = Vector2i(3, 3)
+5:1/0 = 0
+
+[resource]
+sources/0 = SubResource("TileSetAtlasSource_so6gh")
