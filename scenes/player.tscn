@@ -123,4 +123,8 @@ animation = &"walk"
 frame_progress = 0.7980503
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=615813364]
+limit_left = -208
+limit_top = 192
+limit_right = 1920
+limit_bottom = 768
 position_smoothing_enabled = true
