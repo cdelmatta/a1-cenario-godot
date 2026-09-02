@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b1qc6x2lkhawa"]
+
+[ext_resource type="Script" uid="uid://cxmxcv6xmb4rv" path="res://scripts/level_end.gd" id="1_y82ty"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kwbe0"]
+size = Vector2(20, 60)
+
+[node name="LevelEnd" type="Area2D" unique_id=1818396623]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource("1_y82ty")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=157408252]
+shape = SubResource("RectangleShape2D_kwbe0")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
