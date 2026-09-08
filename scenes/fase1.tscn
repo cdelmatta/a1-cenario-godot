@@ -28,9 +28,8 @@ z_index = 1
 position = Vector2(334, -63)
 
 [node name="Camera2D" parent="player" index="1" unique_id=615813364]
-limit_left = -210
-limit_top = -65
-limit_right = 2174
+limit_top = -77
+limit_right = 2159
 limit_bottom = 789
 
 [node name="tiles" type="Node2D" parent="." unique_id=1898028139]
